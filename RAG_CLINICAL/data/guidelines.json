@@ -1,0 +1,82 @@
+[
+  {
+    "id": "htn_1",
+    "condition": "hypertension",
+    "text": "First-line therapy for stage 1 hypertension without compelling indications includes thiazide diuretics, ACE inhibitors, ARBs, or calcium channel blockers, alongside sodium restriction and aerobic exercise."
+  },
+  {
+    "id": "htn_2",
+    "condition": "hypertension",
+    "text": "For stage 2 hypertension or blood pressure persistently above goal on monotherapy, combination therapy with two agents from different classes is recommended, with home blood pressure monitoring to confirm control."
+  },
+  {
+    "id": "dm_1",
+    "condition": "diabetes",
+    "text": "Metformin remains first-line pharmacotherapy for type 2 diabetes; an A1c goal of below 7% is appropriate for most non-pregnant adults without significant comorbidity."
+  },
+  {
+    "id": "dm_2",
+    "condition": "diabetes",
+    "text": "When A1c remains above target despite maximized metformin and lifestyle therapy, addition of a second agent (e.g., GLP-1 receptor agonist or SGLT2 inhibitor) should be considered, particularly with cardiovascular or renal comorbidity."
+  },
+  {
+    "id": "uri_1",
+    "condition": "uri",
+    "text": "Antibiotics are not indicated for uncomplicated viral upper respiratory infections; management is supportive, including fluids, rest, and symptomatic treatment."
+  },
+  {
+    "id": "uri_2",
+    "condition": "uri",
+    "text": "Red-flag features warranting further evaluation of a respiratory complaint include high fever beyond several days, shortness of breath, or focal exam findings suggestive of pneumonia."
+  },
+  {
+    "id": "back_1",
+    "condition": "back_pain",
+    "text": "For acute low back pain without red-flag features (no trauma, no neurologic deficit, no bowel/bladder involvement), routine imaging is not recommended in the first six weeks."
+  },
+  {
+    "id": "back_2",
+    "condition": "back_pain",
+    "text": "First-line management of acute nonspecific low back pain includes NSAIDs, encouragement of normal activity as tolerated, and avoidance of prolonged bed rest."
+  },
+  {
+    "id": "asthma_1",
+    "condition": "asthma",
+    "text": "Stepwise asthma management escalates inhaled corticosteroid dose or adds a long-acting beta agonist when symptom control or rescue-inhaler use indicates inadequate control."
+  },
+  {
+    "id": "asthma_2",
+    "condition": "asthma",
+    "text": "Peak expiratory flow below 80% of personal best, or rescue inhaler use more than twice weekly, suggests inadequately controlled asthma requiring step-up therapy."
+  },
+  {
+    "id": "gerd_1",
+    "condition": "gerd",
+    "text": "A once-daily proton pump inhibitor trial for 4 to 8 weeks is first-line therapy for symptomatic GERD without alarm features."
+  },
+  {
+    "id": "gerd_2",
+    "condition": "gerd",
+    "text": "Alarm features for reflux symptoms warranting endoscopic evaluation include dysphagia, unintentional weight loss, or gastrointestinal bleeding."
+  },
+  {
+    "id": "uti_1",
+    "condition": "uti",
+    "text": "Uncomplicated acute cystitis in otherwise healthy patients is typically treated with a short course of nitrofurantoin, trimethoprim-sulfamethoxazole, or fosfomycin, guided by local resistance patterns."
+  },
+  {
+    "id": "uti_2",
+    "condition": "uti",
+    "text": "Flank pain, fever, or costovertebral angle tenderness suggest possible pyelonephritis and warrant broader evaluation and treatment rather than management as uncomplicated cystitis."
+  },
+  {
+    "id": "anx_1",
+    "condition": "anxiety",
+    "text": "First-line pharmacotherapy for generalized anxiety disorder includes SSRIs or SNRIs, typically alongside cognitive behavioral therapy referral."
+  },
+  {
+    "id": "anx_2",
+    "condition": "anxiety",
+    "text": "Screening tools such as the GAD-7 can help quantify anxiety symptom severity and monitor response to treatment over time."
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "precision_at_k": 0.6964285714285714,
+  "k": 2,
+  "n": 56,
+  "per_condition": {
+    "uti": 1.0,
+    "uri": 0.42857142857142855,
+    "gerd": 0.7142857142857143,
+    "back_pain": 1.0,
+    "hypertension": 1.0,
+    "anxiety": 0.0,
+    "asthma": 1.0,
+    "diabetes": 0.42857142857142855
+  }
+}

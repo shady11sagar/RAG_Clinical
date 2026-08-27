@@ -1,0 +1,3576 @@
+{
+  "train": [
+    {
+      "id": "enc_044",
+      "condition": "uti",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've had burning with urination for the past two days."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've also noticed increased urinary frequency."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No fever or chills."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Temperature is 99.1 F."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No costovertebral angle tenderness."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Urinalysis shows leukocyte esterase and nitrites positive."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Do you have any questions before we wrap up?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I've had burning with urination for the past two days.",
+          "I've also noticed increased urinary frequency.",
+          "No fever or chills."
+        ],
+        "objective": [
+          "Temperature is 99.1 F.",
+          "No costovertebral angle tenderness.",
+          "Urinalysis shows leukocyte esterase and nitrites positive."
+        ],
+        "assessment": "Uncomplicated acute cystitis.",
+        "plan": "Start a short course of first-line oral antibiotic therapy per local antibiogram and uncomplicated-UTI treatment guidance."
+      },
+      "guideline_ids": [
+        "uti_1",
+        "uti_2"
+      ]
+    },
+    {
+      "id": "enc_015",
+      "condition": "uri",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "No shortness of breath."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I have a mild cough, mostly dry."
+        },
+        {
+          "speaker": "Patient",
+          "text": "My symptoms seem to be improving slightly since yesterday."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Temperature is 98.7 F, oxygen saturation 96% on room air."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Oropharynx is mildly erythematous without exudate."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Lungs are clear to auscultation bilaterally."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No cervical lymphadenopathy noted."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Do you have any questions before we wrap up?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "No shortness of breath.",
+          "I have a mild cough, mostly dry.",
+          "My symptoms seem to be improving slightly since yesterday."
+        ],
+        "objective": [
+          "Temperature is 98.7 F, oxygen saturation 96% on room air.",
+          "Oropharynx is mildly erythematous without exudate.",
+          "Lungs are clear to auscultation bilaterally.",
+          "No cervical lymphadenopathy noted."
+        ],
+        "assessment": "Acute uncomplicated viral upper respiratory infection.",
+        "plan": "Symptomatic management with fluids and rest; antibiotics are not indicated given absence of bacterial features, consistent with URI antibiotic-stewardship guidance."
+      },
+      "guideline_ids": [
+        "uri_1",
+        "uri_2"
+      ]
+    },
+    {
+      "id": "enc_040",
+      "condition": "gerd",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "No unintentional weight loss."
+        },
+        {
+          "speaker": "Patient",
+          "text": "Symptoms are worse after eating spicy or fatty food."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've had heartburn most nights over the past two weeks."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Abdomen is soft, non-tender, non-distended."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No epigastric tenderness on palpation."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Weight is 207 lbs, stable."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Any changes to your insurance information since your last visit?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "No unintentional weight loss.",
+          "Symptoms are worse after eating spicy or fatty food.",
+          "I've had heartburn most nights over the past two weeks."
+        ],
+        "objective": [
+          "Abdomen is soft, non-tender, non-distended.",
+          "No epigastric tenderness on palpation.",
+          "Weight is 207 lbs, stable."
+        ],
+        "assessment": "Gastroesophageal reflux disease, symptomatic.",
+        "plan": "Start a trial of once-daily proton pump inhibitor and recommend lifestyle modification (weight management, avoiding late meals), per GERD management guidance."
+      },
+      "guideline_ids": [
+        "gerd_1",
+        "gerd_2"
+      ]
+    },
+    {
+      "id": "enc_027",
+      "condition": "back_pain",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "The pain is worse with bending forward."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No numbness or weakness in my legs."
+        },
+        {
+          "speaker": "Patient",
+          "text": "Over-the-counter ibuprofen has helped a little."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Lumbar paraspinal tenderness noted on palpation."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Straight leg raise test is negative bilaterally."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Lower extremity strength and sensation are intact."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Gait is normal."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Let me know if you need a note for work."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "The pain is worse with bending forward.",
+          "No numbness or weakness in my legs.",
+          "Over-the-counter ibuprofen has helped a little."
+        ],
+        "objective": [
+          "Lumbar paraspinal tenderness noted on palpation.",
+          "Straight leg raise test is negative bilaterally.",
+          "Lower extremity strength and sensation are intact.",
+          "Gait is normal."
+        ],
+        "assessment": "Acute nonspecific low back pain without red-flag features.",
+        "plan": "Continue NSAIDs as needed, encourage early mobilization, and avoid routine imaging in the absence of red flags, per acute low back pain guidance."
+      },
+      "guideline_ids": [
+        "back_1",
+        "back_2"
+      ]
+    },
+    {
+      "id": "enc_003",
+      "condition": "hypertension",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I feel a bit dizzy when I stand up quickly."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I haven't been checking my blood pressure at home."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I ran out of my blood pressure medication about two weeks ago."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Blood pressure today is 161/89 mmHg, heart rate 90 bpm."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Repeat blood pressure reading after five minutes rest is 138/90 mmHg."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Cardiovascular exam reveals regular rate and rhythm, no murmurs."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No lower extremity edema noted on exam."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Weight is 202 lbs, BMI 23.5."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "The nurse will be in shortly to draw some blood."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I feel a bit dizzy when I stand up quickly.",
+          "I haven't been checking my blood pressure at home.",
+          "I ran out of my blood pressure medication about two weeks ago."
+        ],
+        "objective": [
+          "Blood pressure today is 161/89 mmHg, heart rate 90 bpm.",
+          "Repeat blood pressure reading after five minutes rest is 138/90 mmHg.",
+          "Cardiovascular exam reveals regular rate and rhythm, no murmurs.",
+          "No lower extremity edema noted on exam.",
+          "Weight is 202 lbs, BMI 23.5."
+        ],
+        "assessment": "Essential hypertension, currently poorly controlled on current regimen.",
+        "plan": "Continue lifestyle modification (sodium restriction, exercise) and increase the current dose, per first-line antihypertensive guidance for stage 2 hypertension."
+      },
+      "guideline_ids": [
+        "htn_1",
+        "htn_2"
+      ]
+    },
+    {
+      "id": "enc_023",
+      "condition": "back_pain",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I strained my lower back lifting something heavy three days ago."
+        },
+        {
+          "speaker": "Patient",
+          "text": "Over-the-counter ibuprofen has helped a little."
+        },
+        {
+          "speaker": "Patient",
+          "text": "The pain is worse with bending forward."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Lumbar paraspinal tenderness noted on palpation."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Straight leg raise test is negative bilaterally."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Lower extremity strength and sensation are intact."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Gait is normal."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "The front desk will help you with your next appointment."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I strained my lower back lifting something heavy three days ago.",
+          "Over-the-counter ibuprofen has helped a little.",
+          "The pain is worse with bending forward."
+        ],
+        "objective": [
+          "Lumbar paraspinal tenderness noted on palpation.",
+          "Straight leg raise test is negative bilaterally.",
+          "Lower extremity strength and sensation are intact.",
+          "Gait is normal."
+        ],
+        "assessment": "Acute nonspecific low back pain without red-flag features.",
+        "plan": "Continue NSAIDs as needed, encourage early mobilization, and avoid routine imaging in the absence of red flags, per acute low back pain guidance."
+      },
+      "guideline_ids": [
+        "back_1",
+        "back_2"
+      ]
+    },
+    {
+      "id": "enc_005",
+      "condition": "hypertension",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "No chest pain, but I do feel tired more than usual."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I haven't been checking my blood pressure at home."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've been having occasional headaches in the morning."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Blood pressure today is 168/90 mmHg, heart rate 63 bpm."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Repeat blood pressure reading after five minutes rest is 135/84 mmHg."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Cardiovascular exam reveals regular rate and rhythm, no murmurs."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No lower extremity edema noted on exam."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Weight is 189 lbs, BMI 30.4."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Any changes to your insurance information since your last visit?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "No chest pain, but I do feel tired more than usual.",
+          "I haven't been checking my blood pressure at home.",
+          "I've been having occasional headaches in the morning."
+        ],
+        "objective": [
+          "Blood pressure today is 168/90 mmHg, heart rate 63 bpm.",
+          "Repeat blood pressure reading after five minutes rest is 135/84 mmHg.",
+          "Cardiovascular exam reveals regular rate and rhythm, no murmurs.",
+          "No lower extremity edema noted on exam.",
+          "Weight is 189 lbs, BMI 30.4."
+        ],
+        "assessment": "Essential hypertension, currently poorly controlled on current regimen.",
+        "plan": "Continue lifestyle modification (sodium restriction, exercise) and increase the current dose, per first-line antihypertensive guidance for stage 2 hypertension."
+      },
+      "guideline_ids": [
+        "htn_1",
+        "htn_2"
+      ]
+    },
+    {
+      "id": "enc_054",
+      "condition": "anxiety",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "My worries feel hard to control most days."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No thoughts of self-harm."
+        },
+        {
+          "speaker": "Patient",
+          "text": "Symptoms have been present for at least six weeks now."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Affect is mildly anxious but appropriate."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Speech is normal rate and rhythm."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "PHQ-9 score is 14, GAD-7 score is 12."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Do you have any other concerns before you go?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "My worries feel hard to control most days.",
+          "No thoughts of self-harm.",
+          "Symptoms have been present for at least six weeks now."
+        ],
+        "objective": [
+          "Affect is mildly anxious but appropriate.",
+          "Speech is normal rate and rhythm.",
+          "PHQ-9 score is 14, GAD-7 score is 12."
+        ],
+        "assessment": "Generalized anxiety disorder, moderately controlled.",
+        "plan": "switch to an alternative agent and referral for cognitive behavioral therapy, consistent with first-line generalized anxiety disorder management guidance."
+      },
+      "guideline_ids": [
+        "anx_1",
+        "anx_2"
+      ]
+    },
+    {
+      "id": "enc_051",
+      "condition": "anxiety",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "My worries feel hard to control most days."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've been feeling more anxious and having trouble sleeping."
+        },
+        {
+          "speaker": "Patient",
+          "text": "Symptoms have been present for at least six weeks now."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Affect is mildly anxious but appropriate."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Speech is normal rate and rhythm."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "PHQ-9 score is 8, GAD-7 score is 8."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "The front desk will help you with your next appointment."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "My worries feel hard to control most days.",
+          "I've been feeling more anxious and having trouble sleeping.",
+          "Symptoms have been present for at least six weeks now."
+        ],
+        "objective": [
+          "Affect is mildly anxious but appropriate.",
+          "Speech is normal rate and rhythm.",
+          "PHQ-9 score is 8, GAD-7 score is 8."
+        ],
+        "assessment": "Generalized anxiety disorder, poorly controlled.",
+        "plan": "increase the current dose and referral for cognitive behavioral therapy, consistent with first-line generalized anxiety disorder management guidance."
+      },
+      "guideline_ids": [
+        "anx_1",
+        "anx_2"
+      ]
+    },
+    {
+      "id": "enc_041",
+      "condition": "gerd",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've had heartburn most nights over the past two weeks."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No difficulty swallowing."
+        },
+        {
+          "speaker": "Patient",
+          "text": "Symptoms are worse after eating spicy or fatty food."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Abdomen is soft, non-tender, non-distended."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No epigastric tenderness on palpation."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Weight is 176 lbs, stable."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "The front desk will help you with your next appointment."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I've had heartburn most nights over the past two weeks.",
+          "No difficulty swallowing.",
+          "Symptoms are worse after eating spicy or fatty food."
+        ],
+        "objective": [
+          "Abdomen is soft, non-tender, non-distended.",
+          "No epigastric tenderness on palpation.",
+          "Weight is 176 lbs, stable."
+        ],
+        "assessment": "Gastroesophageal reflux disease, symptomatic.",
+        "plan": "Start a trial of once-daily proton pump inhibitor and recommend lifestyle modification (weight management, avoiding late meals), per GERD management guidance."
+      },
+      "guideline_ids": [
+        "gerd_1",
+        "gerd_2"
+      ]
+    },
+    {
+      "id": "enc_031",
+      "condition": "asthma",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "Pollen season seems to be triggering my symptoms."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've been using my rescue inhaler more often this week."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I wake up coughing about twice a week."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Peak flow today is 288 L/min, 78% of personal best."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Mild expiratory wheeze noted bilaterally."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Oxygen saturation is 99% on room air."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Respiratory rate is 19 breaths per minute."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "It's good to see you again."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "Pollen season seems to be triggering my symptoms.",
+          "I've been using my rescue inhaler more often this week.",
+          "I wake up coughing about twice a week."
+        ],
+        "objective": [
+          "Peak flow today is 288 L/min, 78% of personal best.",
+          "Mild expiratory wheeze noted bilaterally.",
+          "Oxygen saturation is 99% on room air.",
+          "Respiratory rate is 19 breaths per minute."
+        ],
+        "assessment": "Mild persistent asthma, currently well controlled.",
+        "plan": "start an additional agent inhaled corticosteroid therapy and reassess symptom control in 4 weeks, per stepwise asthma management guidance."
+      },
+      "guideline_ids": [
+        "asthma_1",
+        "asthma_2"
+      ]
+    },
+    {
+      "id": "enc_043",
+      "condition": "uti",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've also noticed increased urinary frequency."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've had burning with urination for the past two days."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No flank pain."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Temperature is 100.0 F."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No costovertebral angle tenderness."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Urinalysis shows leukocyte esterase and nitrites positive."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Any changes to your insurance information since your last visit?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I've also noticed increased urinary frequency.",
+          "I've had burning with urination for the past two days.",
+          "No flank pain."
+        ],
+        "objective": [
+          "Temperature is 100.0 F.",
+          "No costovertebral angle tenderness.",
+          "Urinalysis shows leukocyte esterase and nitrites positive."
+        ],
+        "assessment": "Uncomplicated acute cystitis.",
+        "plan": "Start a short course of first-line oral antibiotic therapy per local antibiogram and uncomplicated-UTI treatment guidance."
+      },
+      "guideline_ids": [
+        "uti_1",
+        "uti_2"
+      ]
+    },
+    {
+      "id": "enc_016",
+      "condition": "uri",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "My symptoms seem to be improving slightly since yesterday."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No fever at home, just some nasal congestion."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've had a runny nose and sore throat for about four days."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Temperature is 97.9 F, oxygen saturation 99% on room air."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Oropharynx is mildly erythematous without exudate."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Lungs are clear to auscultation bilaterally."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No cervical lymphadenopathy noted."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Let's go ahead and schedule your follow-up for next month."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "My symptoms seem to be improving slightly since yesterday.",
+          "No fever at home, just some nasal congestion.",
+          "I've had a runny nose and sore throat for about four days."
+        ],
+        "objective": [
+          "Temperature is 97.9 F, oxygen saturation 99% on room air.",
+          "Oropharynx is mildly erythematous without exudate.",
+          "Lungs are clear to auscultation bilaterally.",
+          "No cervical lymphadenopathy noted."
+        ],
+        "assessment": "Acute uncomplicated viral upper respiratory infection.",
+        "plan": "Symptomatic management with fluids and rest; antibiotics are not indicated given absence of bacterial features, consistent with URI antibiotic-stewardship guidance."
+      },
+      "guideline_ids": [
+        "uri_1",
+        "uri_2"
+      ]
+    },
+    {
+      "id": "enc_024",
+      "condition": "back_pain",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I strained my lower back lifting something heavy three days ago."
+        },
+        {
+          "speaker": "Patient",
+          "text": "The pain is worse with bending forward."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No numbness or weakness in my legs."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Lumbar paraspinal tenderness noted on palpation."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Straight leg raise test is negative bilaterally."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Lower extremity strength and sensation are intact."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Gait is normal."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Do you have any other concerns before you go?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I strained my lower back lifting something heavy three days ago.",
+          "The pain is worse with bending forward.",
+          "No numbness or weakness in my legs."
+        ],
+        "objective": [
+          "Lumbar paraspinal tenderness noted on palpation.",
+          "Straight leg raise test is negative bilaterally.",
+          "Lower extremity strength and sensation are intact.",
+          "Gait is normal."
+        ],
+        "assessment": "Acute nonspecific low back pain without red-flag features.",
+        "plan": "Continue NSAIDs as needed, encourage early mobilization, and avoid routine imaging in the absence of red flags, per acute low back pain guidance."
+      },
+      "guideline_ids": [
+        "back_1",
+        "back_2"
+      ]
+    },
+    {
+      "id": "enc_045",
+      "condition": "uti",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've had burning with urination for the past two days."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No fever or chills."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No flank pain."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Temperature is 100.0 F."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No costovertebral angle tenderness."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Urinalysis shows leukocyte esterase and nitrites positive."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "How has your family been doing lately?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I've had burning with urination for the past two days.",
+          "No fever or chills.",
+          "No flank pain."
+        ],
+        "objective": [
+          "Temperature is 100.0 F.",
+          "No costovertebral angle tenderness.",
+          "Urinalysis shows leukocyte esterase and nitrites positive."
+        ],
+        "assessment": "Uncomplicated acute cystitis.",
+        "plan": "Start a short course of first-line oral antibiotic therapy per local antibiogram and uncomplicated-UTI treatment guidance."
+      },
+      "guideline_ids": [
+        "uti_1",
+        "uti_2"
+      ]
+    },
+    {
+      "id": "enc_010",
+      "condition": "diabetes",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "No numbness or tingling in my feet."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've noticed increased thirst over the past month."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I missed a few doses of my metformin this month."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Fasting glucose today is 171 mg/dL."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Hemoglobin A1c is 8.0%."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Foot exam shows intact sensation bilaterally, no ulcers."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Weight is 226 lbs, unchanged from last visit."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "The front desk will help you with your next appointment."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "No numbness or tingling in my feet.",
+          "I've noticed increased thirst over the past month.",
+          "I missed a few doses of my metformin this month."
+        ],
+        "objective": [
+          "Fasting glucose today is 171 mg/dL.",
+          "Hemoglobin A1c is 8.0%.",
+          "Foot exam shows intact sensation bilaterally, no ulcers.",
+          "Weight is 226 lbs, unchanged from last visit."
+        ],
+        "assessment": "Type 2 diabetes mellitus, moderately controlled with A1c of 8.0%.",
+        "plan": "increase the current dose, reinforce dietary counseling, and recheck A1c in 3 months, consistent with ADA glycemic-target guidance."
+      },
+      "guideline_ids": [
+        "dm_1",
+        "dm_2"
+      ]
+    },
+    {
+      "id": "enc_021",
+      "condition": "back_pain",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "Over-the-counter ibuprofen has helped a little."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No numbness or weakness in my legs."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No loss of bowel or bladder control."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Lumbar paraspinal tenderness noted on palpation."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Straight leg raise test is negative bilaterally."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Lower extremity strength and sensation are intact."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Gait is normal."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "I'll send the referral over to the specialist's office."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "Over-the-counter ibuprofen has helped a little.",
+          "No numbness or weakness in my legs.",
+          "No loss of bowel or bladder control."
+        ],
+        "objective": [
+          "Lumbar paraspinal tenderness noted on palpation.",
+          "Straight leg raise test is negative bilaterally.",
+          "Lower extremity strength and sensation are intact.",
+          "Gait is normal."
+        ],
+        "assessment": "Acute nonspecific low back pain without red-flag features.",
+        "plan": "Continue NSAIDs as needed, encourage early mobilization, and avoid routine imaging in the absence of red flags, per acute low back pain guidance."
+      },
+      "guideline_ids": [
+        "back_1",
+        "back_2"
+      ]
+    },
+    {
+      "id": "enc_034",
+      "condition": "asthma",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've been using my rescue inhaler more often this week."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No recent emergency room visits."
+        },
+        {
+          "speaker": "Patient",
+          "text": "Pollen season seems to be triggering my symptoms."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Peak flow today is 356 L/min, 70% of personal best."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Mild expiratory wheeze noted bilaterally."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Oxygen saturation is 98% on room air."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Respiratory rate is 22 breaths per minute."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Thanks for coming in today, how have you been overall?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I've been using my rescue inhaler more often this week.",
+          "No recent emergency room visits.",
+          "Pollen season seems to be triggering my symptoms."
+        ],
+        "objective": [
+          "Peak flow today is 356 L/min, 70% of personal best.",
+          "Mild expiratory wheeze noted bilaterally.",
+          "Oxygen saturation is 98% on room air.",
+          "Respiratory rate is 22 breaths per minute."
+        ],
+        "assessment": "Mild persistent asthma, currently well controlled.",
+        "plan": "continue the current regimen inhaled corticosteroid therapy and reassess symptom control in 4 weeks, per stepwise asthma management guidance."
+      },
+      "guideline_ids": [
+        "asthma_1",
+        "asthma_2"
+      ]
+    },
+    {
+      "id": "enc_042",
+      "condition": "uti",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "No fever or chills."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No flank pain."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've also noticed increased urinary frequency."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Temperature is 99.0 F."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No costovertebral angle tenderness."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Urinalysis shows leukocyte esterase and nitrites positive."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "I'll send the referral over to the specialist's office."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "No fever or chills.",
+          "No flank pain.",
+          "I've also noticed increased urinary frequency."
+        ],
+        "objective": [
+          "Temperature is 99.0 F.",
+          "No costovertebral angle tenderness.",
+          "Urinalysis shows leukocyte esterase and nitrites positive."
+        ],
+        "assessment": "Uncomplicated acute cystitis.",
+        "plan": "Start a short course of first-line oral antibiotic therapy per local antibiogram and uncomplicated-UTI treatment guidance."
+      },
+      "guideline_ids": [
+        "uti_1",
+        "uti_2"
+      ]
+    },
+    {
+      "id": "enc_012",
+      "condition": "diabetes",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've noticed increased thirst over the past month."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I missed a few doses of my metformin this month."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No numbness or tingling in my feet."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Fasting glucose today is 156 mg/dL."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Hemoglobin A1c is 8.1%."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Foot exam shows intact sensation bilaterally, no ulcers."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Weight is 205 lbs, unchanged from last visit."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Take care, and we'll see you at the next visit."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I've noticed increased thirst over the past month.",
+          "I missed a few doses of my metformin this month.",
+          "No numbness or tingling in my feet."
+        ],
+        "objective": [
+          "Fasting glucose today is 156 mg/dL.",
+          "Hemoglobin A1c is 8.1%.",
+          "Foot exam shows intact sensation bilaterally, no ulcers.",
+          "Weight is 205 lbs, unchanged from last visit."
+        ],
+        "assessment": "Type 2 diabetes mellitus, poorly controlled with A1c of 8.1%.",
+        "plan": "start an additional agent, reinforce dietary counseling, and recheck A1c in 3 months, consistent with ADA glycemic-target guidance."
+      },
+      "guideline_ids": [
+        "dm_1",
+        "dm_2"
+      ]
+    },
+    {
+      "id": "enc_026",
+      "condition": "back_pain",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "No numbness or weakness in my legs."
+        },
+        {
+          "speaker": "Patient",
+          "text": "The pain is worse with bending forward."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No loss of bowel or bladder control."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Lumbar paraspinal tenderness noted on palpation."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Straight leg raise test is negative bilaterally."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Lower extremity strength and sensation are intact."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Gait is normal."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Did you find parking okay today?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "No numbness or weakness in my legs.",
+          "The pain is worse with bending forward.",
+          "No loss of bowel or bladder control."
+        ],
+        "objective": [
+          "Lumbar paraspinal tenderness noted on palpation.",
+          "Straight leg raise test is negative bilaterally.",
+          "Lower extremity strength and sensation are intact.",
+          "Gait is normal."
+        ],
+        "assessment": "Acute nonspecific low back pain without red-flag features.",
+        "plan": "Continue NSAIDs as needed, encourage early mobilization, and avoid routine imaging in the absence of red flags, per acute low back pain guidance."
+      },
+      "guideline_ids": [
+        "back_1",
+        "back_2"
+      ]
+    },
+    {
+      "id": "enc_049",
+      "condition": "anxiety",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "My worries feel hard to control most days."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've been feeling more anxious and having trouble sleeping."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No thoughts of self-harm."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Affect is mildly anxious but appropriate."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Speech is normal rate and rhythm."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "PHQ-9 score is 11, GAD-7 score is 13."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "How has your family been doing lately?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "My worries feel hard to control most days.",
+          "I've been feeling more anxious and having trouble sleeping.",
+          "No thoughts of self-harm."
+        ],
+        "objective": [
+          "Affect is mildly anxious but appropriate.",
+          "Speech is normal rate and rhythm.",
+          "PHQ-9 score is 11, GAD-7 score is 13."
+        ],
+        "assessment": "Generalized anxiety disorder, well controlled.",
+        "plan": "switch to an alternative agent and referral for cognitive behavioral therapy, consistent with first-line generalized anxiety disorder management guidance."
+      },
+      "guideline_ids": [
+        "anx_1",
+        "anx_2"
+      ]
+    },
+    {
+      "id": "enc_037",
+      "condition": "gerd",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "Symptoms are worse after eating spicy or fatty food."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've had heartburn most nights over the past two weeks."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No difficulty swallowing."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Abdomen is soft, non-tender, non-distended."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No epigastric tenderness on palpation."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Weight is 217 lbs, stable."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Take care, and we'll see you at the next visit."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "Symptoms are worse after eating spicy or fatty food.",
+          "I've had heartburn most nights over the past two weeks.",
+          "No difficulty swallowing."
+        ],
+        "objective": [
+          "Abdomen is soft, non-tender, non-distended.",
+          "No epigastric tenderness on palpation.",
+          "Weight is 217 lbs, stable."
+        ],
+        "assessment": "Gastroesophageal reflux disease, symptomatic.",
+        "plan": "Start a trial of once-daily proton pump inhibitor and recommend lifestyle modification (weight management, avoiding late meals), per GERD management guidance."
+      },
+      "guideline_ids": [
+        "gerd_1",
+        "gerd_2"
+      ]
+    },
+    {
+      "id": "enc_028",
+      "condition": "asthma",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "No recent emergency room visits."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've been using my rescue inhaler more often this week."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I wake up coughing about twice a week."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Peak flow today is 360 L/min, 75% of personal best."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Mild expiratory wheeze noted bilaterally."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Oxygen saturation is 96% on room air."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Respiratory rate is 19 breaths per minute."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Do you have any questions before we wrap up?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "No recent emergency room visits.",
+          "I've been using my rescue inhaler more often this week.",
+          "I wake up coughing about twice a week."
+        ],
+        "objective": [
+          "Peak flow today is 360 L/min, 75% of personal best.",
+          "Mild expiratory wheeze noted bilaterally.",
+          "Oxygen saturation is 96% on room air.",
+          "Respiratory rate is 19 breaths per minute."
+        ],
+        "assessment": "Mild persistent asthma, currently moderately controlled.",
+        "plan": "increase the current dose inhaled corticosteroid therapy and reassess symptom control in 4 weeks, per stepwise asthma management guidance."
+      },
+      "guideline_ids": [
+        "asthma_1",
+        "asthma_2"
+      ]
+    },
+    {
+      "id": "enc_025",
+      "condition": "back_pain",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "No numbness or weakness in my legs."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No loss of bowel or bladder control."
+        },
+        {
+          "speaker": "Patient",
+          "text": "The pain is worse with bending forward."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Lumbar paraspinal tenderness noted on palpation."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Straight leg raise test is negative bilaterally."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Lower extremity strength and sensation are intact."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Gait is normal."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "We'll get you checked out at the front desk."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "No numbness or weakness in my legs.",
+          "No loss of bowel or bladder control.",
+          "The pain is worse with bending forward."
+        ],
+        "objective": [
+          "Lumbar paraspinal tenderness noted on palpation.",
+          "Straight leg raise test is negative bilaterally.",
+          "Lower extremity strength and sensation are intact.",
+          "Gait is normal."
+        ],
+        "assessment": "Acute nonspecific low back pain without red-flag features.",
+        "plan": "Continue NSAIDs as needed, encourage early mobilization, and avoid routine imaging in the absence of red flags, per acute low back pain guidance."
+      },
+      "guideline_ids": [
+        "back_1",
+        "back_2"
+      ]
+    },
+    {
+      "id": "enc_007",
+      "condition": "diabetes",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've noticed increased thirst over the past month."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No numbness or tingling in my feet."
+        },
+        {
+          "speaker": "Patient",
+          "text": "My blood sugar readings at home have been running a bit high."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Fasting glucose today is 149 mg/dL."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Hemoglobin A1c is 7.3%."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Foot exam shows intact sensation bilaterally, no ulcers."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Weight is 210 lbs, unchanged from last visit."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Do you have any questions before we wrap up?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I've noticed increased thirst over the past month.",
+          "No numbness or tingling in my feet.",
+          "My blood sugar readings at home have been running a bit high."
+        ],
+        "objective": [
+          "Fasting glucose today is 149 mg/dL.",
+          "Hemoglobin A1c is 7.3%.",
+          "Foot exam shows intact sensation bilaterally, no ulcers.",
+          "Weight is 210 lbs, unchanged from last visit."
+        ],
+        "assessment": "Type 2 diabetes mellitus, well controlled with A1c of 7.3%.",
+        "plan": "start an additional agent, reinforce dietary counseling, and recheck A1c in 3 months, consistent with ADA glycemic-target guidance."
+      },
+      "guideline_ids": [
+        "dm_1",
+        "dm_2"
+      ]
+    },
+    {
+      "id": "enc_052",
+      "condition": "anxiety",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've been feeling more anxious and having trouble sleeping."
+        },
+        {
+          "speaker": "Patient",
+          "text": "My worries feel hard to control most days."
+        },
+        {
+          "speaker": "Patient",
+          "text": "Symptoms have been present for at least six weeks now."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Affect is mildly anxious but appropriate."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Speech is normal rate and rhythm."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "PHQ-9 score is 9, GAD-7 score is 16."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "It's good to see you again."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I've been feeling more anxious and having trouble sleeping.",
+          "My worries feel hard to control most days.",
+          "Symptoms have been present for at least six weeks now."
+        ],
+        "objective": [
+          "Affect is mildly anxious but appropriate.",
+          "Speech is normal rate and rhythm.",
+          "PHQ-9 score is 9, GAD-7 score is 16."
+        ],
+        "assessment": "Generalized anxiety disorder, well controlled.",
+        "plan": "continue the current regimen and referral for cognitive behavioral therapy, consistent with first-line generalized anxiety disorder management guidance."
+      },
+      "guideline_ids": [
+        "anx_1",
+        "anx_2"
+      ]
+    },
+    {
+      "id": "enc_011",
+      "condition": "diabetes",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've noticed increased thirst over the past month."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No numbness or tingling in my feet."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I missed a few doses of my metformin this month."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Fasting glucose today is 184 mg/dL."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Hemoglobin A1c is 8.3%."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Foot exam shows intact sensation bilaterally, no ulcers."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Weight is 204 lbs, unchanged from last visit."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "The front desk will help you with your next appointment."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I've noticed increased thirst over the past month.",
+          "No numbness or tingling in my feet.",
+          "I missed a few doses of my metformin this month."
+        ],
+        "objective": [
+          "Fasting glucose today is 184 mg/dL.",
+          "Hemoglobin A1c is 8.3%.",
+          "Foot exam shows intact sensation bilaterally, no ulcers.",
+          "Weight is 204 lbs, unchanged from last visit."
+        ],
+        "assessment": "Type 2 diabetes mellitus, moderately controlled with A1c of 8.3%.",
+        "plan": "continue the current regimen, reinforce dietary counseling, and recheck A1c in 3 months, consistent with ADA glycemic-target guidance."
+      },
+      "guideline_ids": [
+        "dm_1",
+        "dm_2"
+      ]
+    },
+    {
+      "id": "enc_048",
+      "condition": "uti",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've also noticed increased urinary frequency."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've had burning with urination for the past two days."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No flank pain."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Temperature is 98.1 F."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No costovertebral angle tenderness."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Urinalysis shows leukocyte esterase and nitrites positive."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "It's good to see you again."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I've also noticed increased urinary frequency.",
+          "I've had burning with urination for the past two days.",
+          "No flank pain."
+        ],
+        "objective": [
+          "Temperature is 98.1 F.",
+          "No costovertebral angle tenderness.",
+          "Urinalysis shows leukocyte esterase and nitrites positive."
+        ],
+        "assessment": "Uncomplicated acute cystitis.",
+        "plan": "Start a short course of first-line oral antibiotic therapy per local antibiogram and uncomplicated-UTI treatment guidance."
+      },
+      "guideline_ids": [
+        "uti_1",
+        "uti_2"
+      ]
+    },
+    {
+      "id": "enc_030",
+      "condition": "asthma",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "No recent emergency room visits."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I wake up coughing about twice a week."
+        },
+        {
+          "speaker": "Patient",
+          "text": "Pollen season seems to be triggering my symptoms."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Peak flow today is 281 L/min, 86% of personal best."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Mild expiratory wheeze noted bilaterally."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Oxygen saturation is 99% on room air."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Respiratory rate is 22 breaths per minute."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "How has your family been doing lately?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "No recent emergency room visits.",
+          "I wake up coughing about twice a week.",
+          "Pollen season seems to be triggering my symptoms."
+        ],
+        "objective": [
+          "Peak flow today is 281 L/min, 86% of personal best.",
+          "Mild expiratory wheeze noted bilaterally.",
+          "Oxygen saturation is 99% on room air.",
+          "Respiratory rate is 22 breaths per minute."
+        ],
+        "assessment": "Mild persistent asthma, currently moderately controlled.",
+        "plan": "switch to an alternative agent inhaled corticosteroid therapy and reassess symptom control in 4 weeks, per stepwise asthma management guidance."
+      },
+      "guideline_ids": [
+        "asthma_1",
+        "asthma_2"
+      ]
+    },
+    {
+      "id": "enc_004",
+      "condition": "hypertension",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "No chest pain, but I do feel tired more than usual."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I ran out of my blood pressure medication about two weeks ago."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've been under a lot of stress at work lately."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Blood pressure today is 134/84 mmHg, heart rate 66 bpm."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Repeat blood pressure reading after five minutes rest is 139/87 mmHg."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Cardiovascular exam reveals regular rate and rhythm, no murmurs."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No lower extremity edema noted on exam."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Weight is 227 lbs, BMI 24.7."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "How has your family been doing lately?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "No chest pain, but I do feel tired more than usual.",
+          "I ran out of my blood pressure medication about two weeks ago.",
+          "I've been under a lot of stress at work lately."
+        ],
+        "objective": [
+          "Blood pressure today is 134/84 mmHg, heart rate 66 bpm.",
+          "Repeat blood pressure reading after five minutes rest is 139/87 mmHg.",
+          "Cardiovascular exam reveals regular rate and rhythm, no murmurs.",
+          "No lower extremity edema noted on exam.",
+          "Weight is 227 lbs, BMI 24.7."
+        ],
+        "assessment": "Essential hypertension, currently well controlled on current regimen.",
+        "plan": "Continue lifestyle modification (sodium restriction, exercise) and start an additional agent, per first-line antihypertensive guidance for stage 1 hypertension."
+      },
+      "guideline_ids": [
+        "htn_1",
+        "htn_2"
+      ]
+    },
+    {
+      "id": "enc_022",
+      "condition": "back_pain",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "The pain is worse with bending forward."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No loss of bowel or bladder control."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No numbness or weakness in my legs."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Lumbar paraspinal tenderness noted on palpation."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Straight leg raise test is negative bilaterally."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Lower extremity strength and sensation are intact."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Gait is normal."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Let's go ahead and schedule your follow-up for next month."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "The pain is worse with bending forward.",
+          "No loss of bowel or bladder control.",
+          "No numbness or weakness in my legs."
+        ],
+        "objective": [
+          "Lumbar paraspinal tenderness noted on palpation.",
+          "Straight leg raise test is negative bilaterally.",
+          "Lower extremity strength and sensation are intact.",
+          "Gait is normal."
+        ],
+        "assessment": "Acute nonspecific low back pain without red-flag features.",
+        "plan": "Continue NSAIDs as needed, encourage early mobilization, and avoid routine imaging in the absence of red flags, per acute low back pain guidance."
+      },
+      "guideline_ids": [
+        "back_1",
+        "back_2"
+      ]
+    },
+    {
+      "id": "enc_029",
+      "condition": "asthma",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I wake up coughing about twice a week."
+        },
+        {
+          "speaker": "Patient",
+          "text": "Pollen season seems to be triggering my symptoms."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've been using my rescue inhaler more often this week."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Peak flow today is 348 L/min, 67% of personal best."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Mild expiratory wheeze noted bilaterally."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Oxygen saturation is 99% on room air."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Respiratory rate is 17 breaths per minute."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "The front desk will help you with your next appointment."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I wake up coughing about twice a week.",
+          "Pollen season seems to be triggering my symptoms.",
+          "I've been using my rescue inhaler more often this week."
+        ],
+        "objective": [
+          "Peak flow today is 348 L/min, 67% of personal best.",
+          "Mild expiratory wheeze noted bilaterally.",
+          "Oxygen saturation is 99% on room air.",
+          "Respiratory rate is 17 breaths per minute."
+        ],
+        "assessment": "Mild persistent asthma, currently moderately controlled.",
+        "plan": "start an additional agent inhaled corticosteroid therapy and reassess symptom control in 4 weeks, per stepwise asthma management guidance."
+      },
+      "guideline_ids": [
+        "asthma_1",
+        "asthma_2"
+      ]
+    },
+    {
+      "id": "enc_053",
+      "condition": "anxiety",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "Symptoms have been present for at least six weeks now."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've been feeling more anxious and having trouble sleeping."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No thoughts of self-harm."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Affect is mildly anxious but appropriate."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Speech is normal rate and rhythm."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "PHQ-9 score is 7, GAD-7 score is 7."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Did you find parking okay today?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "Symptoms have been present for at least six weeks now.",
+          "I've been feeling more anxious and having trouble sleeping.",
+          "No thoughts of self-harm."
+        ],
+        "objective": [
+          "Affect is mildly anxious but appropriate.",
+          "Speech is normal rate and rhythm.",
+          "PHQ-9 score is 7, GAD-7 score is 7."
+        ],
+        "assessment": "Generalized anxiety disorder, poorly controlled.",
+        "plan": "start an additional agent and referral for cognitive behavioral therapy, consistent with first-line generalized anxiety disorder management guidance."
+      },
+      "guideline_ids": [
+        "anx_1",
+        "anx_2"
+      ]
+    },
+    {
+      "id": "enc_006",
+      "condition": "hypertension",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've been having occasional headaches in the morning."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've been under a lot of stress at work lately."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I feel a bit dizzy when I stand up quickly."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Blood pressure today is 156/90 mmHg, heart rate 92 bpm."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Repeat blood pressure reading after five minutes rest is 134/74 mmHg."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Cardiovascular exam reveals regular rate and rhythm, no murmurs."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No lower extremity edema noted on exam."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Weight is 160 lbs, BMI 28.9."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Do you have any questions before we wrap up?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I've been having occasional headaches in the morning.",
+          "I've been under a lot of stress at work lately.",
+          "I feel a bit dizzy when I stand up quickly."
+        ],
+        "objective": [
+          "Blood pressure today is 156/90 mmHg, heart rate 92 bpm.",
+          "Repeat blood pressure reading after five minutes rest is 134/74 mmHg.",
+          "Cardiovascular exam reveals regular rate and rhythm, no murmurs.",
+          "No lower extremity edema noted on exam.",
+          "Weight is 160 lbs, BMI 28.9."
+        ],
+        "assessment": "Essential hypertension, currently moderately controlled on current regimen.",
+        "plan": "Continue lifestyle modification (sodium restriction, exercise) and switch to an alternative agent, per first-line antihypertensive guidance for stage 2 hypertension."
+      },
+      "guideline_ids": [
+        "htn_1",
+        "htn_2"
+      ]
+    },
+    {
+      "id": "enc_009",
+      "condition": "diabetes",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "No numbness or tingling in my feet."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've noticed increased thirst over the past month."
+        },
+        {
+          "speaker": "Patient",
+          "text": "My blood sugar readings at home have been running a bit high."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Fasting glucose today is 149 mg/dL."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Hemoglobin A1c is 8.6%."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Foot exam shows intact sensation bilaterally, no ulcers."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Weight is 182 lbs, unchanged from last visit."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Take care, and we'll see you at the next visit."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "No numbness or tingling in my feet.",
+          "I've noticed increased thirst over the past month.",
+          "My blood sugar readings at home have been running a bit high."
+        ],
+        "objective": [
+          "Fasting glucose today is 149 mg/dL.",
+          "Hemoglobin A1c is 8.6%.",
+          "Foot exam shows intact sensation bilaterally, no ulcers.",
+          "Weight is 182 lbs, unchanged from last visit."
+        ],
+        "assessment": "Type 2 diabetes mellitus, well controlled with A1c of 8.6%.",
+        "plan": "increase the current dose, reinforce dietary counseling, and recheck A1c in 3 months, consistent with ADA glycemic-target guidance."
+      },
+      "guideline_ids": [
+        "dm_1",
+        "dm_2"
+      ]
+    },
+    {
+      "id": "enc_036",
+      "condition": "gerd",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've had heartburn most nights over the past two weeks."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No unintentional weight loss."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No difficulty swallowing."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Abdomen is soft, non-tender, non-distended."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No epigastric tenderness on palpation."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Weight is 188 lbs, stable."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "It's good to see you again."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I've had heartburn most nights over the past two weeks.",
+          "No unintentional weight loss.",
+          "No difficulty swallowing."
+        ],
+        "objective": [
+          "Abdomen is soft, non-tender, non-distended.",
+          "No epigastric tenderness on palpation.",
+          "Weight is 188 lbs, stable."
+        ],
+        "assessment": "Gastroesophageal reflux disease, symptomatic.",
+        "plan": "Start a trial of once-daily proton pump inhibitor and recommend lifestyle modification (weight management, avoiding late meals), per GERD management guidance."
+      },
+      "guideline_ids": [
+        "gerd_1",
+        "gerd_2"
+      ]
+    },
+    {
+      "id": "enc_039",
+      "condition": "gerd",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "No unintentional weight loss."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've had heartburn most nights over the past two weeks."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No difficulty swallowing."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Abdomen is soft, non-tender, non-distended."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No epigastric tenderness on palpation."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Weight is 196 lbs, stable."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "We'll get you checked out at the front desk."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "No unintentional weight loss.",
+          "I've had heartburn most nights over the past two weeks.",
+          "No difficulty swallowing."
+        ],
+        "objective": [
+          "Abdomen is soft, non-tender, non-distended.",
+          "No epigastric tenderness on palpation.",
+          "Weight is 196 lbs, stable."
+        ],
+        "assessment": "Gastroesophageal reflux disease, symptomatic.",
+        "plan": "Start a trial of once-daily proton pump inhibitor and recommend lifestyle modification (weight management, avoiding late meals), per GERD management guidance."
+      },
+      "guideline_ids": [
+        "gerd_1",
+        "gerd_2"
+      ]
+    },
+    {
+      "id": "enc_032",
+      "condition": "asthma",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "No recent emergency room visits."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've been using my rescue inhaler more often this week."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I wake up coughing about twice a week."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Peak flow today is 347 L/min, 69% of personal best."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Mild expiratory wheeze noted bilaterally."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Oxygen saturation is 99% on room air."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Respiratory rate is 18 breaths per minute."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "I'll send the referral over to the specialist's office."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "No recent emergency room visits.",
+          "I've been using my rescue inhaler more often this week.",
+          "I wake up coughing about twice a week."
+        ],
+        "objective": [
+          "Peak flow today is 347 L/min, 69% of personal best.",
+          "Mild expiratory wheeze noted bilaterally.",
+          "Oxygen saturation is 99% on room air.",
+          "Respiratory rate is 18 breaths per minute."
+        ],
+        "assessment": "Mild persistent asthma, currently well controlled.",
+        "plan": "switch to an alternative agent inhaled corticosteroid therapy and reassess symptom control in 4 weeks, per stepwise asthma management guidance."
+      },
+      "guideline_ids": [
+        "asthma_1",
+        "asthma_2"
+      ]
+    },
+    {
+      "id": "enc_035",
+      "condition": "gerd",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "Symptoms are worse after eating spicy or fatty food."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No unintentional weight loss."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No difficulty swallowing."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Abdomen is soft, non-tender, non-distended."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No epigastric tenderness on palpation."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Weight is 182 lbs, stable."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "It's good to see you again."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "Symptoms are worse after eating spicy or fatty food.",
+          "No unintentional weight loss.",
+          "No difficulty swallowing."
+        ],
+        "objective": [
+          "Abdomen is soft, non-tender, non-distended.",
+          "No epigastric tenderness on palpation.",
+          "Weight is 182 lbs, stable."
+        ],
+        "assessment": "Gastroesophageal reflux disease, symptomatic.",
+        "plan": "Start a trial of once-daily proton pump inhibitor and recommend lifestyle modification (weight management, avoiding late meals), per GERD management guidance."
+      },
+      "guideline_ids": [
+        "gerd_1",
+        "gerd_2"
+      ]
+    },
+    {
+      "id": "enc_017",
+      "condition": "uri",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "My symptoms seem to be improving slightly since yesterday."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No fever at home, just some nasal congestion."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I have a mild cough, mostly dry."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Temperature is 99.7 F, oxygen saturation 98% on room air."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Oropharynx is mildly erythematous without exudate."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Lungs are clear to auscultation bilaterally."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No cervical lymphadenopathy noted."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Let me know if you need a note for work."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "My symptoms seem to be improving slightly since yesterday.",
+          "No fever at home, just some nasal congestion.",
+          "I have a mild cough, mostly dry."
+        ],
+        "objective": [
+          "Temperature is 99.7 F, oxygen saturation 98% on room air.",
+          "Oropharynx is mildly erythematous without exudate.",
+          "Lungs are clear to auscultation bilaterally.",
+          "No cervical lymphadenopathy noted."
+        ],
+        "assessment": "Acute uncomplicated viral upper respiratory infection.",
+        "plan": "Symptomatic management with fluids and rest; antibiotics are not indicated given absence of bacterial features, consistent with URI antibiotic-stewardship guidance."
+      },
+      "guideline_ids": [
+        "uri_1",
+        "uri_2"
+      ]
+    },
+    {
+      "id": "enc_050",
+      "condition": "anxiety",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've been feeling more anxious and having trouble sleeping."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No thoughts of self-harm."
+        },
+        {
+          "speaker": "Patient",
+          "text": "My worries feel hard to control most days."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Affect is mildly anxious but appropriate."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Speech is normal rate and rhythm."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "PHQ-9 score is 15, GAD-7 score is 9."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "The front desk will help you with your next appointment."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I've been feeling more anxious and having trouble sleeping.",
+          "No thoughts of self-harm.",
+          "My worries feel hard to control most days."
+        ],
+        "objective": [
+          "Affect is mildly anxious but appropriate.",
+          "Speech is normal rate and rhythm.",
+          "PHQ-9 score is 15, GAD-7 score is 9."
+        ],
+        "assessment": "Generalized anxiety disorder, moderately controlled.",
+        "plan": "switch to an alternative agent and referral for cognitive behavioral therapy, consistent with first-line generalized anxiety disorder management guidance."
+      },
+      "guideline_ids": [
+        "anx_1",
+        "anx_2"
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "enc_020",
+      "condition": "uri",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've had a runny nose and sore throat for about four days."
+        },
+        {
+          "speaker": "Patient",
+          "text": "My symptoms seem to be improving slightly since yesterday."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I have a mild cough, mostly dry."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Temperature is 100.6 F, oxygen saturation 95% on room air."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Oropharynx is mildly erythematous without exudate."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Lungs are clear to auscultation bilaterally."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No cervical lymphadenopathy noted."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Did you find parking okay today?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I've had a runny nose and sore throat for about four days.",
+          "My symptoms seem to be improving slightly since yesterday.",
+          "I have a mild cough, mostly dry."
+        ],
+        "objective": [
+          "Temperature is 100.6 F, oxygen saturation 95% on room air.",
+          "Oropharynx is mildly erythematous without exudate.",
+          "Lungs are clear to auscultation bilaterally.",
+          "No cervical lymphadenopathy noted."
+        ],
+        "assessment": "Acute uncomplicated viral upper respiratory infection.",
+        "plan": "Symptomatic management with fluids and rest; antibiotics are not indicated given absence of bacterial features, consistent with URI antibiotic-stewardship guidance."
+      },
+      "guideline_ids": [
+        "uri_1",
+        "uri_2"
+      ]
+    },
+    {
+      "id": "enc_013",
+      "condition": "diabetes",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "No numbness or tingling in my feet."
+        },
+        {
+          "speaker": "Patient",
+          "text": "My blood sugar readings at home have been running a bit high."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I missed a few doses of my metformin this month."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Fasting glucose today is 157 mg/dL."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Hemoglobin A1c is 7.4%."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Foot exam shows intact sensation bilaterally, no ulcers."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Weight is 169 lbs, unchanged from last visit."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Did you find parking okay today?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "No numbness or tingling in my feet.",
+          "My blood sugar readings at home have been running a bit high.",
+          "I missed a few doses of my metformin this month."
+        ],
+        "objective": [
+          "Fasting glucose today is 157 mg/dL.",
+          "Hemoglobin A1c is 7.4%.",
+          "Foot exam shows intact sensation bilaterally, no ulcers.",
+          "Weight is 169 lbs, unchanged from last visit."
+        ],
+        "assessment": "Type 2 diabetes mellitus, moderately controlled with A1c of 7.4%.",
+        "plan": "increase the current dose, reinforce dietary counseling, and recheck A1c in 3 months, consistent with ADA glycemic-target guidance."
+      },
+      "guideline_ids": [
+        "dm_1",
+        "dm_2"
+      ]
+    },
+    {
+      "id": "enc_014",
+      "condition": "uri",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I have a mild cough, mostly dry."
+        },
+        {
+          "speaker": "Patient",
+          "text": "My symptoms seem to be improving slightly since yesterday."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No fever at home, just some nasal congestion."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Temperature is 99.6 F, oxygen saturation 95% on room air."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Oropharynx is mildly erythematous without exudate."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Lungs are clear to auscultation bilaterally."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No cervical lymphadenopathy noted."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Is there a good number to reach you for lab results?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I have a mild cough, mostly dry.",
+          "My symptoms seem to be improving slightly since yesterday.",
+          "No fever at home, just some nasal congestion."
+        ],
+        "objective": [
+          "Temperature is 99.6 F, oxygen saturation 95% on room air.",
+          "Oropharynx is mildly erythematous without exudate.",
+          "Lungs are clear to auscultation bilaterally.",
+          "No cervical lymphadenopathy noted."
+        ],
+        "assessment": "Acute uncomplicated viral upper respiratory infection.",
+        "plan": "Symptomatic management with fluids and rest; antibiotics are not indicated given absence of bacterial features, consistent with URI antibiotic-stewardship guidance."
+      },
+      "guideline_ids": [
+        "uri_1",
+        "uri_2"
+      ]
+    },
+    {
+      "id": "enc_047",
+      "condition": "uti",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've also noticed increased urinary frequency."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No flank pain."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've had burning with urination for the past two days."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Temperature is 97.9 F."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No costovertebral angle tenderness."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Urinalysis shows leukocyte esterase and nitrites positive."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Let me know if you need a note for work."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I've also noticed increased urinary frequency.",
+          "No flank pain.",
+          "I've had burning with urination for the past two days."
+        ],
+        "objective": [
+          "Temperature is 97.9 F.",
+          "No costovertebral angle tenderness.",
+          "Urinalysis shows leukocyte esterase and nitrites positive."
+        ],
+        "assessment": "Uncomplicated acute cystitis.",
+        "plan": "Start a short course of first-line oral antibiotic therapy per local antibiogram and uncomplicated-UTI treatment guidance."
+      },
+      "guideline_ids": [
+        "uti_1",
+        "uti_2"
+      ]
+    },
+    {
+      "id": "enc_055",
+      "condition": "anxiety",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "No thoughts of self-harm."
+        },
+        {
+          "speaker": "Patient",
+          "text": "My worries feel hard to control most days."
+        },
+        {
+          "speaker": "Patient",
+          "text": "Symptoms have been present for at least six weeks now."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Affect is mildly anxious but appropriate."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Speech is normal rate and rhythm."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "PHQ-9 score is 12, GAD-7 score is 14."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "I'll send the referral over to the specialist's office."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "No thoughts of self-harm.",
+          "My worries feel hard to control most days.",
+          "Symptoms have been present for at least six weeks now."
+        ],
+        "objective": [
+          "Affect is mildly anxious but appropriate.",
+          "Speech is normal rate and rhythm.",
+          "PHQ-9 score is 12, GAD-7 score is 14."
+        ],
+        "assessment": "Generalized anxiety disorder, moderately controlled.",
+        "plan": "switch to an alternative agent and referral for cognitive behavioral therapy, consistent with first-line generalized anxiety disorder management guidance."
+      },
+      "guideline_ids": [
+        "anx_1",
+        "anx_2"
+      ]
+    },
+    {
+      "id": "enc_019",
+      "condition": "uri",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've had a runny nose and sore throat for about four days."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No shortness of breath."
+        },
+        {
+          "speaker": "Patient",
+          "text": "My symptoms seem to be improving slightly since yesterday."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Temperature is 99.7 F, oxygen saturation 95% on room air."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Oropharynx is mildly erythematous without exudate."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Lungs are clear to auscultation bilaterally."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No cervical lymphadenopathy noted."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Is there a good number to reach you for lab results?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I've had a runny nose and sore throat for about four days.",
+          "No shortness of breath.",
+          "My symptoms seem to be improving slightly since yesterday."
+        ],
+        "objective": [
+          "Temperature is 99.7 F, oxygen saturation 95% on room air.",
+          "Oropharynx is mildly erythematous without exudate.",
+          "Lungs are clear to auscultation bilaterally.",
+          "No cervical lymphadenopathy noted."
+        ],
+        "assessment": "Acute uncomplicated viral upper respiratory infection.",
+        "plan": "Symptomatic management with fluids and rest; antibiotics are not indicated given absence of bacterial features, consistent with URI antibiotic-stewardship guidance."
+      },
+      "guideline_ids": [
+        "uri_1",
+        "uri_2"
+      ]
+    },
+    {
+      "id": "enc_008",
+      "condition": "diabetes",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've noticed increased thirst over the past month."
+        },
+        {
+          "speaker": "Patient",
+          "text": "My blood sugar readings at home have been running a bit high."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I missed a few doses of my metformin this month."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Fasting glucose today is 180 mg/dL."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Hemoglobin A1c is 7.0%."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Foot exam shows intact sensation bilaterally, no ulcers."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Weight is 210 lbs, unchanged from last visit."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "We'll get you checked out at the front desk."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I've noticed increased thirst over the past month.",
+          "My blood sugar readings at home have been running a bit high.",
+          "I missed a few doses of my metformin this month."
+        ],
+        "objective": [
+          "Fasting glucose today is 180 mg/dL.",
+          "Hemoglobin A1c is 7.0%.",
+          "Foot exam shows intact sensation bilaterally, no ulcers.",
+          "Weight is 210 lbs, unchanged from last visit."
+        ],
+        "assessment": "Type 2 diabetes mellitus, well controlled with A1c of 7.0%.",
+        "plan": "start an additional agent, reinforce dietary counseling, and recheck A1c in 3 months, consistent with ADA glycemic-target guidance."
+      },
+      "guideline_ids": [
+        "dm_1",
+        "dm_2"
+      ]
+    },
+    {
+      "id": "enc_033",
+      "condition": "asthma",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "Pollen season seems to be triggering my symptoms."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've been using my rescue inhaler more often this week."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No recent emergency room visits."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Peak flow today is 305 L/min, 85% of personal best."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Mild expiratory wheeze noted bilaterally."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Oxygen saturation is 96% on room air."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Respiratory rate is 18 breaths per minute."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Is there a good number to reach you for lab results?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "Pollen season seems to be triggering my symptoms.",
+          "I've been using my rescue inhaler more often this week.",
+          "No recent emergency room visits."
+        ],
+        "objective": [
+          "Peak flow today is 305 L/min, 85% of personal best.",
+          "Mild expiratory wheeze noted bilaterally.",
+          "Oxygen saturation is 96% on room air.",
+          "Respiratory rate is 18 breaths per minute."
+        ],
+        "assessment": "Mild persistent asthma, currently moderately controlled.",
+        "plan": "continue the current regimen inhaled corticosteroid therapy and reassess symptom control in 4 weeks, per stepwise asthma management guidance."
+      },
+      "guideline_ids": [
+        "asthma_1",
+        "asthma_2"
+      ]
+    },
+    {
+      "id": "enc_001",
+      "condition": "hypertension",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've been under a lot of stress at work lately."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I haven't been checking my blood pressure at home."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I ran out of my blood pressure medication about two weeks ago."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Blood pressure today is 161/80 mmHg, heart rate 72 bpm."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Repeat blood pressure reading after five minutes rest is 147/90 mmHg."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Cardiovascular exam reveals regular rate and rhythm, no murmurs."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No lower extremity edema noted on exam."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Weight is 193 lbs, BMI 29.0."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Did you find parking okay today?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I've been under a lot of stress at work lately.",
+          "I haven't been checking my blood pressure at home.",
+          "I ran out of my blood pressure medication about two weeks ago."
+        ],
+        "objective": [
+          "Blood pressure today is 161/80 mmHg, heart rate 72 bpm.",
+          "Repeat blood pressure reading after five minutes rest is 147/90 mmHg.",
+          "Cardiovascular exam reveals regular rate and rhythm, no murmurs.",
+          "No lower extremity edema noted on exam.",
+          "Weight is 193 lbs, BMI 29.0."
+        ],
+        "assessment": "Essential hypertension, currently poorly controlled on current regimen.",
+        "plan": "Continue lifestyle modification (sodium restriction, exercise) and start an additional agent, per first-line antihypertensive guidance for stage 2 hypertension."
+      },
+      "guideline_ids": [
+        "htn_1",
+        "htn_2"
+      ]
+    },
+    {
+      "id": "enc_038",
+      "condition": "gerd",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "No difficulty swallowing."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No unintentional weight loss."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've had heartburn most nights over the past two weeks."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Abdomen is soft, non-tender, non-distended."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No epigastric tenderness on palpation."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Weight is 161 lbs, stable."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Do you have any questions before we wrap up?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "No difficulty swallowing.",
+          "No unintentional weight loss.",
+          "I've had heartburn most nights over the past two weeks."
+        ],
+        "objective": [
+          "Abdomen is soft, non-tender, non-distended.",
+          "No epigastric tenderness on palpation.",
+          "Weight is 161 lbs, stable."
+        ],
+        "assessment": "Gastroesophageal reflux disease, symptomatic.",
+        "plan": "Start a trial of once-daily proton pump inhibitor and recommend lifestyle modification (weight management, avoiding late meals), per GERD management guidance."
+      },
+      "guideline_ids": [
+        "gerd_1",
+        "gerd_2"
+      ]
+    },
+    {
+      "id": "enc_018",
+      "condition": "uri",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "My symptoms seem to be improving slightly since yesterday."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've had a runny nose and sore throat for about four days."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No shortness of breath."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Temperature is 98.2 F, oxygen saturation 95% on room air."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Oropharynx is mildly erythematous without exudate."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Lungs are clear to auscultation bilaterally."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No cervical lymphadenopathy noted."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "How has your family been doing lately?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "My symptoms seem to be improving slightly since yesterday.",
+          "I've had a runny nose and sore throat for about four days.",
+          "No shortness of breath."
+        ],
+        "objective": [
+          "Temperature is 98.2 F, oxygen saturation 95% on room air.",
+          "Oropharynx is mildly erythematous without exudate.",
+          "Lungs are clear to auscultation bilaterally.",
+          "No cervical lymphadenopathy noted."
+        ],
+        "assessment": "Acute uncomplicated viral upper respiratory infection.",
+        "plan": "Symptomatic management with fluids and rest; antibiotics are not indicated given absence of bacterial features, consistent with URI antibiotic-stewardship guidance."
+      },
+      "guideline_ids": [
+        "uri_1",
+        "uri_2"
+      ]
+    },
+    {
+      "id": "enc_002",
+      "condition": "hypertension",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "No chest pain, but I do feel tired more than usual."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've been under a lot of stress at work lately."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I haven't been checking my blood pressure at home."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Blood pressure today is 128/81 mmHg, heart rate 90 bpm."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Repeat blood pressure reading after five minutes rest is 143/85 mmHg."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Cardiovascular exam reveals regular rate and rhythm, no murmurs."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No lower extremity edema noted on exam."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Weight is 170 lbs, BMI 32.9."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Thanks for coming in today, how have you been overall?"
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "No chest pain, but I do feel tired more than usual.",
+          "I've been under a lot of stress at work lately.",
+          "I haven't been checking my blood pressure at home."
+        ],
+        "objective": [
+          "Blood pressure today is 128/81 mmHg, heart rate 90 bpm.",
+          "Repeat blood pressure reading after five minutes rest is 143/85 mmHg.",
+          "Cardiovascular exam reveals regular rate and rhythm, no murmurs.",
+          "No lower extremity edema noted on exam.",
+          "Weight is 170 lbs, BMI 32.9."
+        ],
+        "assessment": "Essential hypertension, currently well controlled on current regimen.",
+        "plan": "Continue lifestyle modification (sodium restriction, exercise) and continue the current regimen, per first-line antihypertensive guidance for stage 1 hypertension."
+      },
+      "guideline_ids": [
+        "htn_1",
+        "htn_2"
+      ]
+    },
+    {
+      "id": "enc_046",
+      "condition": "uti",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've also noticed increased urinary frequency."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've had burning with urination for the past two days."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No fever or chills."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Temperature is 99.4 F."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No costovertebral angle tenderness."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Urinalysis shows leukocyte esterase and nitrites positive."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Let me know if you need a note for work."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I've also noticed increased urinary frequency.",
+          "I've had burning with urination for the past two days.",
+          "No fever or chills."
+        ],
+        "objective": [
+          "Temperature is 99.4 F.",
+          "No costovertebral angle tenderness.",
+          "Urinalysis shows leukocyte esterase and nitrites positive."
+        ],
+        "assessment": "Uncomplicated acute cystitis.",
+        "plan": "Start a short course of first-line oral antibiotic therapy per local antibiogram and uncomplicated-UTI treatment guidance."
+      },
+      "guideline_ids": [
+        "uti_1",
+        "uti_2"
+      ]
+    },
+    {
+      "id": "enc_000",
+      "condition": "hypertension",
+      "transcript": [
+        {
+          "speaker": "Doctor",
+          "text": "What brings you in today, and how have things been?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I've been having occasional headaches in the morning."
+        },
+        {
+          "speaker": "Patient",
+          "text": "No chest pain, but I do feel tired more than usual."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I feel a bit dizzy when I stand up quickly."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Okay, let's take a look and check a few things."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Blood pressure today is 128/88 mmHg, heart rate 64 bpm."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Repeat blood pressure reading after five minutes rest is 136/78 mmHg."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Cardiovascular exam reveals regular rate and rhythm, no murmurs."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "No lower extremity edema noted on exam."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Weight is 159 lbs, BMI 33.2."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Let's go ahead and schedule your follow-up for next month."
+        }
+      ],
+      "gold_soap": {
+        "subjective": [
+          "I've been having occasional headaches in the morning.",
+          "No chest pain, but I do feel tired more than usual.",
+          "I feel a bit dizzy when I stand up quickly."
+        ],
+        "objective": [
+          "Blood pressure today is 128/88 mmHg, heart rate 64 bpm.",
+          "Repeat blood pressure reading after five minutes rest is 136/78 mmHg.",
+          "Cardiovascular exam reveals regular rate and rhythm, no murmurs.",
+          "No lower extremity edema noted on exam.",
+          "Weight is 159 lbs, BMI 33.2."
+        ],
+        "assessment": "Essential hypertension, currently well controlled on current regimen.",
+        "plan": "Continue lifestyle modification (sodium restriction, exercise) and switch to an alternative agent, per first-line antihypertensive guidance for stage 1 hypertension."
+      },
+      "guideline_ids": [
+        "htn_1",
+        "htn_2"
+      ]
+    }
+  ]
+}

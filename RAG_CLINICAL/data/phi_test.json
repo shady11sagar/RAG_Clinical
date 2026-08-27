@@ -1,0 +1,522 @@
+[
+  {
+    "text": "Patient Patricia Jackson (MRN MRN883997) was seen in clinic on 11/28/2025 for follow-up.",
+    "phi_spans": [
+      "Patricia Jackson",
+      "MRN883997",
+      "11/28/2025"
+    ]
+  },
+  {
+    "text": "Charles Smith's chart, medical record number MRN434827, was reviewed prior to the visit on 9/19/2023.",
+    "phi_spans": [
+      "Charles Smith",
+      "MRN434827",
+      "9/19/2023"
+    ]
+  },
+  {
+    "text": "Patient Mark Miller (MRN MRN567262) was seen in clinic on 10/19/2025 for follow-up.",
+    "phi_spans": [
+      "Mark Miller",
+      "MRN567262",
+      "10/19/2025"
+    ]
+  },
+  {
+    "text": "Patient Karen Jackson (MRN MRN238610) was seen in clinic on 6/3/2024 for follow-up.",
+    "phi_spans": [
+      "Karen Jackson",
+      "MRN238610",
+      "6/3/2024"
+    ]
+  },
+  {
+    "text": "Please call Sandra Thomas back at (468) 287-7529 to confirm the 7/25/2025 appointment.",
+    "phi_spans": [
+      "Sandra Thomas",
+      "(468) 287-7529",
+      "7/25/2025"
+    ]
+  },
+  {
+    "text": "Please call David Harris back at (772) 402-8993 to confirm the 11/19/2023 appointment.",
+    "phi_spans": [
+      "David Harris",
+      "(772) 402-8993",
+      "11/19/2023"
+    ]
+  },
+  {
+    "text": "Contact number on file for Karen Garcia is (472) 640-6298; date of birth is 10/3/2023.",
+    "phi_spans": [
+      "Karen Garcia",
+      "(472) 640-6298",
+      "10/3/2023"
+    ]
+  },
+  {
+    "text": "Barbara Anderson's chart, medical record number MRN461260, was reviewed prior to the visit on 10/21/2023.",
+    "phi_spans": [
+      "Barbara Anderson",
+      "MRN461260",
+      "10/21/2023"
+    ]
+  },
+  {
+    "text": "Please call Susan Anderson back at (831) 652-3389 to confirm the 1/27/2023 appointment.",
+    "phi_spans": [
+      "Susan Anderson",
+      "(831) 652-3389",
+      "1/27/2023"
+    ]
+  },
+  {
+    "text": "Please call Patricia Williams back at (975) 945-2405 to confirm the 12/2/2023 appointment.",
+    "phi_spans": [
+      "Patricia Williams",
+      "(975) 945-2405",
+      "12/2/2023"
+    ]
+  },
+  {
+    "text": "Nancy Nguyen's chart, medical record number MRN419939, was reviewed prior to the visit on 8/16/2023.",
+    "phi_spans": [
+      "Nancy Nguyen",
+      "MRN419939",
+      "8/16/2023"
+    ]
+  },
+  {
+    "text": "Please call Michael Thompson back at (416) 408-9952 to confirm the 5/18/2024 appointment.",
+    "phi_spans": [
+      "Michael Thompson",
+      "(416) 408-9952",
+      "5/18/2024"
+    ]
+  },
+  {
+    "text": "James Thomas's chart, medical record number MRN145594, was reviewed prior to the visit on 5/6/2023.",
+    "phi_spans": [
+      "James Thomas",
+      "MRN145594",
+      "5/6/2023"
+    ]
+  },
+  {
+    "text": "Michael Clark's chart, medical record number MRN786563, was reviewed prior to the visit on 1/3/2024.",
+    "phi_spans": [
+      "Michael Clark",
+      "MRN786563",
+      "1/3/2024"
+    ]
+  },
+  {
+    "text": "Patient Patricia Johnson (MRN MRN342397) was seen in clinic on 7/17/2025 for follow-up.",
+    "phi_spans": [
+      "Patricia Johnson",
+      "MRN342397",
+      "7/17/2025"
+    ]
+  },
+  {
+    "text": "Patient Thomas Harris (MRN MRN295472) was seen in clinic on 4/17/2024 for follow-up.",
+    "phi_spans": [
+      "Thomas Harris",
+      "MRN295472",
+      "4/17/2024"
+    ]
+  },
+  {
+    "text": "Patient Maria Miller (MRN MRN613731) was seen in clinic on 7/24/2023 for follow-up.",
+    "phi_spans": [
+      "Maria Miller",
+      "MRN613731",
+      "7/24/2023"
+    ]
+  },
+  {
+    "text": "Patricia Anderson's chart, medical record number MRN347678, was reviewed prior to the visit on 9/9/2023.",
+    "phi_spans": [
+      "Patricia Anderson",
+      "MRN347678",
+      "9/9/2023"
+    ]
+  },
+  {
+    "text": "Please call Charles Nguyen back at (768) 486-4695 to confirm the 6/13/2025 appointment.",
+    "phi_spans": [
+      "Charles Nguyen",
+      "(768) 486-4695",
+      "6/13/2025"
+    ]
+  },
+  {
+    "text": "Contact number on file for Robert Thomas is (733) 894-4726; date of birth is 4/19/2023.",
+    "phi_spans": [
+      "Robert Thomas",
+      "(733) 894-4726",
+      "4/19/2023"
+    ]
+  },
+  {
+    "text": "Please call Nancy Clark back at (537) 659-9883 to confirm the 4/21/2023 appointment.",
+    "phi_spans": [
+      "Nancy Clark",
+      "(537) 659-9883",
+      "4/21/2023"
+    ]
+  },
+  {
+    "text": "Please call David Moore back at (905) 922-9582 to confirm the 7/25/2023 appointment.",
+    "phi_spans": [
+      "David Moore",
+      "(905) 922-9582",
+      "7/25/2023"
+    ]
+  },
+  {
+    "text": "Patient Thomas Garcia (MRN MRN293079) was seen in clinic on 6/27/2023 for follow-up.",
+    "phi_spans": [
+      "Thomas Garcia",
+      "MRN293079",
+      "6/27/2023"
+    ]
+  },
+  {
+    "text": "Please call Thomas Jackson back at (621) 510-8258 to confirm the 11/24/2024 appointment.",
+    "phi_spans": [
+      "Thomas Jackson",
+      "(621) 510-8258",
+      "11/24/2024"
+    ]
+  },
+  {
+    "text": "Please call Michael Johnson back at (334) 389-1429 to confirm the 10/20/2024 appointment.",
+    "phi_spans": [
+      "Michael Johnson",
+      "(334) 389-1429",
+      "10/20/2024"
+    ]
+  },
+  {
+    "text": "Please call Betty Miller back at (436) 903-1427 to confirm the 2/23/2024 appointment.",
+    "phi_spans": [
+      "Betty Miller",
+      "(436) 903-1427",
+      "2/23/2024"
+    ]
+  },
+  {
+    "text": "Please call Mark Clark back at (680) 929-7126 to confirm the 7/16/2024 appointment.",
+    "phi_spans": [
+      "Mark Clark",
+      "(680) 929-7126",
+      "7/16/2024"
+    ]
+  },
+  {
+    "text": "Please call Susan Davis back at (431) 233-7694 to confirm the 1/9/2024 appointment.",
+    "phi_spans": [
+      "Susan Davis",
+      "(431) 233-7694",
+      "1/9/2024"
+    ]
+  },
+  {
+    "text": "Contact number on file for Michael Davis is (267) 381-8197; date of birth is 8/23/2024.",
+    "phi_spans": [
+      "Michael Davis",
+      "(267) 381-8197",
+      "8/23/2024"
+    ]
+  },
+  {
+    "text": "Patient Karen Jackson (MRN MRN855185) was seen in clinic on 6/13/2025 for follow-up.",
+    "phi_spans": [
+      "Karen Jackson",
+      "MRN855185",
+      "6/13/2025"
+    ]
+  },
+  {
+    "text": "Patient Mark Johnson (MRN MRN357657) was seen in clinic on 9/18/2024 for follow-up.",
+    "phi_spans": [
+      "Mark Johnson",
+      "MRN357657",
+      "9/18/2024"
+    ]
+  },
+  {
+    "text": "Sandra Thomas's chart, medical record number MRN299072, was reviewed prior to the visit on 5/15/2024.",
+    "phi_spans": [
+      "Sandra Thomas",
+      "MRN299072",
+      "5/15/2024"
+    ]
+  },
+  {
+    "text": "Please call Nancy White back at (370) 632-5823 to confirm the 1/23/2025 appointment.",
+    "phi_spans": [
+      "Nancy White",
+      "(370) 632-5823",
+      "1/23/2025"
+    ]
+  },
+  {
+    "text": "Please call Daniel White back at (292) 939-9202 to confirm the 3/25/2025 appointment.",
+    "phi_spans": [
+      "Daniel White",
+      "(292) 939-9202",
+      "3/25/2025"
+    ]
+  },
+  {
+    "text": "Please call Charles Jackson back at (531) 661-1408 to confirm the 8/19/2025 appointment.",
+    "phi_spans": [
+      "Charles Jackson",
+      "(531) 661-1408",
+      "8/19/2025"
+    ]
+  },
+  {
+    "text": "Patient Daniel Garcia (MRN MRN853270) was seen in clinic on 12/4/2023 for follow-up.",
+    "phi_spans": [
+      "Daniel Garcia",
+      "MRN853270",
+      "12/4/2023"
+    ]
+  },
+  {
+    "text": "Contact number on file for Daniel Anderson is (287) 736-7292; date of birth is 9/20/2023.",
+    "phi_spans": [
+      "Daniel Anderson",
+      "(287) 736-7292",
+      "9/20/2023"
+    ]
+  },
+  {
+    "text": "Please call Sandra Thomas back at (244) 986-3799 to confirm the 10/28/2025 appointment.",
+    "phi_spans": [
+      "Sandra Thomas",
+      "(244) 986-3799",
+      "10/28/2025"
+    ]
+  },
+  {
+    "text": "Contact number on file for Susan Williams is (383) 987-1840; date of birth is 5/10/2025.",
+    "phi_spans": [
+      "Susan Williams",
+      "(383) 987-1840",
+      "5/10/2025"
+    ]
+  },
+  {
+    "text": "Patient Nancy Brown (MRN MRN103704) was seen in clinic on 10/25/2024 for follow-up.",
+    "phi_spans": [
+      "Nancy Brown",
+      "MRN103704",
+      "10/25/2024"
+    ]
+  },
+  {
+    "text": "Contact number on file for Daniel Harris is (710) 756-1094; date of birth is 8/8/2023.",
+    "phi_spans": [
+      "Daniel Harris",
+      "(710) 756-1094",
+      "8/8/2023"
+    ]
+  },
+  {
+    "text": "Please call Daniel Jackson back at (652) 281-1107 to confirm the 9/9/2025 appointment.",
+    "phi_spans": [
+      "Daniel Jackson",
+      "(652) 281-1107",
+      "9/9/2025"
+    ]
+  },
+  {
+    "text": "Maria Brown's chart, medical record number MRN138504, was reviewed prior to the visit on 3/28/2023.",
+    "phi_spans": [
+      "Maria Brown",
+      "MRN138504",
+      "3/28/2023"
+    ]
+  },
+  {
+    "text": "Please call Thomas Garcia back at (250) 311-7831 to confirm the 3/22/2024 appointment.",
+    "phi_spans": [
+      "Thomas Garcia",
+      "(250) 311-7831",
+      "3/22/2024"
+    ]
+  },
+  {
+    "text": "Contact number on file for Daniel Young is (568) 236-2525; date of birth is 5/11/2024.",
+    "phi_spans": [
+      "Daniel Young",
+      "(568) 236-2525",
+      "5/11/2024"
+    ]
+  },
+  {
+    "text": "Robert Jackson's chart, medical record number MRN593687, was reviewed prior to the visit on 3/4/2025.",
+    "phi_spans": [
+      "Robert Jackson",
+      "MRN593687",
+      "3/4/2025"
+    ]
+  },
+  {
+    "text": "Patient Thomas Martin (MRN MRN829630) was seen in clinic on 4/20/2023 for follow-up.",
+    "phi_spans": [
+      "Thomas Martin",
+      "MRN829630",
+      "4/20/2023"
+    ]
+  },
+  {
+    "text": "Paul Martin's chart, medical record number MRN547798, was reviewed prior to the visit on 10/28/2024.",
+    "phi_spans": [
+      "Paul Martin",
+      "MRN547798",
+      "10/28/2024"
+    ]
+  },
+  {
+    "text": "Contact number on file for Mark Young is (838) 562-3125; date of birth is 10/16/2025.",
+    "phi_spans": [
+      "Mark Young",
+      "(838) 562-3125",
+      "10/16/2025"
+    ]
+  },
+  {
+    "text": "Contact number on file for Jessica Brown is (824) 438-5759; date of birth is 1/4/2023.",
+    "phi_spans": [
+      "Jessica Brown",
+      "(824) 438-5759",
+      "1/4/2023"
+    ]
+  },
+  {
+    "text": "Linda Davis (SSN 730-63-7783) resides at 845 5th Rd, Birmingham, AL.",
+    "phi_spans": [
+      "Linda Davis",
+      "730-63-7783",
+      "845 5th Rd, Birmingham, AL"
+    ]
+  },
+  {
+    "text": "James Davis (SSN 806-46-5168) resides at 1211 5th Rd, Huntsville, AL.",
+    "phi_spans": [
+      "James Davis",
+      "806-46-5168",
+      "1211 5th Rd, Huntsville, AL"
+    ]
+  },
+  {
+    "text": "James Johnson (SSN 802-52-6592) resides at 6588 Sunset St, Birmingham, AL.",
+    "phi_spans": [
+      "James Johnson",
+      "802-52-6592",
+      "6588 Sunset St, Birmingham, AL"
+    ]
+  },
+  {
+    "text": "Michael Taylor (SSN 446-96-8849) resides at 7874 Oak Ave, Mobile, AL.",
+    "phi_spans": [
+      "Michael Taylor",
+      "446-96-8849",
+      "7874 Oak Ave, Mobile, AL"
+    ]
+  },
+  {
+    "text": "David White (SSN 649-52-8577) resides at 6882 Sunset St, Huntsville, AL.",
+    "phi_spans": [
+      "David White",
+      "649-52-8577",
+      "6882 Sunset St, Huntsville, AL"
+    ]
+  },
+  {
+    "text": "Paul Taylor (SSN 668-78-1306) resides at 3512 Elm Rd, Huntsville, AL.",
+    "phi_spans": [
+      "Paul Taylor",
+      "668-78-1306",
+      "3512 Elm Rd, Huntsville, AL"
+    ]
+  },
+  {
+    "text": "Robert Williams (SSN 387-13-6556) resides at 6247 Sunset Ave, Mobile, AL.",
+    "phi_spans": [
+      "Robert Williams",
+      "387-13-6556",
+      "6247 Sunset Ave, Mobile, AL"
+    ]
+  },
+  {
+    "text": "Susan Clark (SSN 219-49-6152) resides at 618 5th Ln, Tuscaloosa, AL.",
+    "phi_spans": [
+      "Susan Clark",
+      "219-49-6152",
+      "618 5th Ln, Tuscaloosa, AL"
+    ]
+  },
+  {
+    "text": "Jessica Miller (SSN 480-67-5958) resides at 3641 Elm Rd, Birmingham, AL.",
+    "phi_spans": [
+      "Jessica Miller",
+      "480-67-5958",
+      "3641 Elm Rd, Birmingham, AL"
+    ]
+  },
+  {
+    "text": "Linda Anderson (SSN 138-35-2517) resides at 7370 Elm St, Mobile, AL.",
+    "phi_spans": [
+      "Linda Anderson",
+      "138-35-2517",
+      "7370 Elm St, Mobile, AL"
+    ]
+  },
+  {
+    "text": "Mark Williams (SSN 294-53-8921) resides at 8679 5th Rd, Birmingham, AL.",
+    "phi_spans": [
+      "Mark Williams",
+      "294-53-8921",
+      "8679 5th Rd, Birmingham, AL"
+    ]
+  },
+  {
+    "text": "Linda Martin (SSN 792-26-4361) resides at 698 River Ln, Tuscaloosa, AL.",
+    "phi_spans": [
+      "Linda Martin",
+      "792-26-4361",
+      "698 River Ln, Tuscaloosa, AL"
+    ]
+  },
+  {
+    "text": "James Moore (SSN 145-97-2426) resides at 5560 River St, Tuscaloosa, AL.",
+    "phi_spans": [
+      "James Moore",
+      "145-97-2426",
+      "5560 River St, Tuscaloosa, AL"
+    ]
+  },
+  {
+    "text": "Mark Moore (SSN 123-83-6114) resides at 3538 5th Ave, Birmingham, AL.",
+    "phi_spans": [
+      "Mark Moore",
+      "123-83-6114",
+      "3538 5th Ave, Birmingham, AL"
+    ]
+  },
+  {
+    "text": "Nancy Wilson (SSN 645-50-8227) resides at 2027 5th Ave, Birmingham, AL.",
+    "phi_spans": [
+      "Nancy Wilson",
+      "645-50-8227",
+      "2027 5th Ave, Birmingham, AL"
+    ]
+  }
+]
