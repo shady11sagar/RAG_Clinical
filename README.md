@@ -12,11 +12,13 @@ reproducing the full-scale design once real data/compute are available.
 ## `src/` — Small-scale reference implementation (what the paper's results come from)
 
 Runs end-to-end on any laptop, no GPU, no internet access beyond `pip`.
-Uses a **synthetic** dataset (`generate_data.py` creates it — no real
+Uses a **synthetic** dataset (`generate_data.py` creates it. No real
 patient data anywhere in this repo) and classical ML/NLP
 (TF-IDF + logistic regression, TF-IDF retrieval, regex de-identification)
 as CPU-runnable stand-ins for the GPU components specified in the full
 architecture.
+
+> Before running any of this, create and activate a virtual environment, then make sure your editor (VS Code, Antigravity, etc.) has that same virtual environment selected as its interpreter, otherwise pip install and python run_all.py may end up pointing at two different Pythons.
 
 ```bash
 cd src
